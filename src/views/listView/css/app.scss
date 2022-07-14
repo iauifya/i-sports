@@ -1,0 +1,109 @@
+//顏色管理
+$lightBlue: #45D2E4;
+$blue: #38A8B7;
+$pink: #F970CA;
+$black: #484848;
+$grey: #D9D9D9;
+$darkGrey: #9D9D9D;
+
+//初始設定
+
+
+@mixin cardDesign {
+  padding: 1rem;
+  border: 2.5px solid $blue;
+  box-shadow: 1px 3px 8px rgba(0, 0, 0, 0.15);
+  margin-bottom: 1.2rem;
+}
+img.dateCondition{
+  width: 60px;
+  height: fit-content;
+  margin-left: 6px;
+}
+.title{
+  color: $blue;
+  text-align: left;
+}
+
+//page
+.actiCard {
+  @include cardDesign;
+  .date {
+    display: flex;
+    align-items: baseline;
+    padding: 12px;
+  }
+
+  .info {
+    margin-left: 16px;
+    .place {
+      display: flex;
+      align-items: center;
+      img {
+        width: 20px;
+      }
+      span{
+        color: $darkGrey;
+        font-size: 18px;
+      }
+    }
+  }
+}
+.inputBox{
+  display: flex;
+  flex-flow: column nowrap;
+  align-items: flex-start;
+}
+
+#details{
+  .infoCard {
+   @include cardDesign;
+   width: 80%;
+   margin: 0 auto;
+   text-align: start;
+   .title {
+     display: flex;
+     justify-content: center;
+
+     h2 {
+       color: $blue;
+     }
+     img {
+       width: 90px;
+       margin-left: 12px;
+     }
+   }
+   .contentBox {
+     padding: 1rem;
+   }
+   .content {
+     .sedTitle {
+       border: 2px solid $pink;
+       padding: 4px 12px;
+       display: inline-block;
+       border-radius: 8px;
+
+       h4 {
+         color: $pink;
+       }
+     }
+     .desc {
+       padding: 8px 0;
+       &.phone{
+         display: flex;
+         a{
+           display: flex;
+           margin-left: 16px;
+           p{
+             margin-left: 4px;
+           }
+         }
+       }
+     }
+
+   }
+ }
+ .btn{
+   margin: 0 4px;
+ }
+}

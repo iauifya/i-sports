@@ -1,0 +1,88 @@
+* h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+span {
+  margin: 0;
+  padding: 0;
+  font-weight: 600;
+  color: #484848;
+}
+
+div {
+  position: relative;
+}
+
+nav {
+  padding: 20px;
+}
+
+.bolder {
+  font-weight: 900;
+}
+
+.btn {
+  border: 1px solid #45D2E4;
+  border-radius: 32px;
+  padding: 5px 32px;
+  background-color: #fbfbfb;
+  color: #45D2E4;
+  -webkit-box-shadow: 0px 3px 8px #d8d8d8;
+          box-shadow: 0px 3px 8px #d8d8d8;
+  font-weight: 600;
+  font-size: 1.5rem;
+  letter-spacing: 1.2px;
+  text-align: left;
+  outline: none;
+  -webkit-box-shadow: 2px 3px 8px rgba(59, 173, 177, 0.6);
+          box-shadow: 2px 3px 8px rgba(59, 173, 177, 0.6);
+  -webkit-transition: all 0.2s;
+  transition: all 0.2s;
+}
+
+.btn:hover,
+.btn.btn_primary {
+  background-color: #45D2E4;
+  color: #fbfbfb;
+  outline: none;
+}
+
+.btn.btn_secondary {
+  background-color: #fbfbfb;
+  color: #45D2E4;
+  border: 1.8px solid #45D2E4;
+  outline: none;
+  -webkit-box-shadow: 2px 4px 8px rgba(0, 0, 0, 0.25);
+          box-shadow: 2px 4px 8px rgba(0, 0, 0, 0.25);
+}
+
+.btn:active,
+.btn:focus {
+  background-color: #38A8B7;
+  color: #fbfbfb;
+  outline: transparent;
+}
+
+@media (max-width: 360px) {
+  .btn {
+    padding: 8px 20px;
+  }
+}
+
+a {
+  text-decoration: none;
+}
+
+a:hover,
+a:active {
+  text-decoration: none;
+}
+
+.imgFluid {
+  max-width: 100%;
+  height: auto;
+}
+/*# sourceMappingURL=style.css.map */

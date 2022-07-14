@@ -1,0 +1,135 @@
+img.dateCondition {
+  width: 60px;
+  height: -webkit-fit-content;
+  height: -moz-fit-content;
+  height: fit-content;
+  margin-left: 6px;
+}
+
+.title {
+  color: #38A8B7;
+  text-align: left;
+}
+
+.actiCard {
+  padding: 1rem;
+  border: 2.5px solid #38A8B7;
+  -webkit-box-shadow: 1px 3px 8px rgba(0, 0, 0, 0.15);
+          box-shadow: 1px 3px 8px rgba(0, 0, 0, 0.15);
+  margin-bottom: 1.2rem;
+}
+
+.actiCard .date {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: baseline;
+      -ms-flex-align: baseline;
+          align-items: baseline;
+  padding: 12px;
+}
+
+.actiCard .info {
+  margin-left: 16px;
+}
+
+.actiCard .info .place {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.actiCard .info .place img {
+  width: 20px;
+}
+
+.actiCard .info .place span {
+  color: #9D9D9D;
+  font-size: 18px;
+}
+
+.inputBox {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: column nowrap;
+          flex-flow: column nowrap;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+}
+
+#details .infoCard {
+  padding: 1rem;
+  border: 2.5px solid #38A8B7;
+  -webkit-box-shadow: 1px 3px 8px rgba(0, 0, 0, 0.15);
+          box-shadow: 1px 3px 8px rgba(0, 0, 0, 0.15);
+  margin-bottom: 1.2rem;
+  width: 80%;
+  margin: 0 auto;
+  text-align: start;
+}
+
+#details .infoCard .title {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+#details .infoCard .title h2 {
+  color: #38A8B7;
+}
+
+#details .infoCard .title img {
+  width: 90px;
+  margin-left: 12px;
+}
+
+#details .infoCard .contentBox {
+  padding: 1rem;
+}
+
+#details .infoCard .content .sedTitle {
+  border: 2px solid #F970CA;
+  padding: 4px 12px;
+  display: inline-block;
+  border-radius: 8px;
+}
+
+#details .infoCard .content .sedTitle h4 {
+  color: #F970CA;
+}
+
+#details .infoCard .content .desc {
+  padding: 8px 0;
+}
+
+#details .infoCard .content .desc.phone {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+#details .infoCard .content .desc.phone a {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-left: 16px;
+}
+
+#details .infoCard .content .desc.phone a p {
+  margin-left: 4px;
+}
+
+#details .btn {
+  margin: 0 4px;
+}
+/*# sourceMappingURL=app.css.map */
