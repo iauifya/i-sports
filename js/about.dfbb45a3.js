@@ -1,0 +1,2 @@
+"use strict";(self["webpackChunki_sports"]=self["webpackChunki_sports"]||[]).push([[443],{1119:function(t,s,n){n.r(s),n.d(s,{default:function(){return o}});var u=function(){var t=this;t._self._c;return t._m(0)},e=[function(){var t=this,s=t._self._c;return s("div",{staticClass:"about"},[s("h1",[t._v("This is an about page")])])}],r={name:"ISportsAboutview"},i=r,a=n(1001),l=(0,a.Z)(i,u,e,!1,null,null,null),o=l.exports}}]);
+//# sourceMappingURL=about.dfbb45a3.js.map
