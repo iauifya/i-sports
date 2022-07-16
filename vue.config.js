@@ -4,7 +4,7 @@ module.exports = defineConfig({
   lintOnSave: false
   
 })
-module.exports = { assetsDir: '.'}
+// module.exports = { assetsDir: '.'}
 module.exports = { 
   publicPath: process.env.NODE_ENV === 'production' 
   ? '/i-sports/' //為github的專案名稱 
