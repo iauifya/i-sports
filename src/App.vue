@@ -37,14 +37,14 @@ export default {
   name: 'ISportsApp',
   mounted() {
     // const facebookAppId = process.env.VUE_APP_FACEBOOK_APP_ID;
-    window.fbAsyncInit = function () {
-        FB.init({
-            appId: 295146415113585,
-            cookie: true,
-            xfbml: true,
-            version: 'v14.0'
-        });
-    };
+    // window.fbAsyncInit = function () {
+    //     FB.init({
+    //         appId: 295146415113585,
+    //         cookie: true,
+    //         xfbml: true,
+    //         version: 'v14.0'
+    //     });
+    // };
   },
 };
 </script>
