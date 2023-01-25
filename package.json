@@ -15,13 +15,16 @@
     "ember-cli-facebook-js-sdk": "^2.1.0",
     "facebook-business-sdk-ts": "^9.0.1",
     "jquery": "^3.6.0",
+    "moment": "^2.29.4",
+    "moment-js": "^1.1.15",
     "mutationobserver-shim": "^0.3.7",
     "popper.js": "^1.16.1",
     "portal-vue": "^2.1.7",
     "vue": "^2.6.14",
     "vue-router": "^3.5.1",
     "vuejs-paginate": "^2.1.0",
-    "vuex": "^3.6.2"
+    "vuex": "^3.6.2",
+    "vuex-router-sync": "^5.0.0"
   },
   "devDependencies": {
     "@babel/core": "^7.12.16",
@@ -38,6 +41,7 @@
     "sass-loader": "^10.0.2",
     "vue-cli-plugin-axios": "0.0.4",
     "vue-cli-plugin-bootstrap-vue": "^0.8.2",
+    "vue-cli-plugin-moment": "^0.1.1",
     "vue-template-compiler": "^2.6.14"
   },
   "eslintConfig": {

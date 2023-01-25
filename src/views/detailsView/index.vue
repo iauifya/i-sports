@@ -27,19 +27,19 @@ export default {
   },
   methods: {
     goback() {
-      window.location.href = `/#/list`;
+      window.location.href = `/`;
     },
-    shareToFB() {
-      FB.ui(
-        {
-          display: "popup",
-          method: "share",
-          // href: `#/list`
-          href:"https://developers.facebook.com/docs"
-        },
-        function(response) {}
-      );
-    }
+    // shareToFB() {
+    //   FB.ui(
+    //     {
+    //       display: "popup",
+    //       method: "share",
+    //       // href: `#/list`
+    //       href:"https://developers.facebook.com/docs"
+    //     },
+    //     function(response) {}
+    //   );
+    // }
   },
   mounted() {
     this.id = this.$route.params.id;

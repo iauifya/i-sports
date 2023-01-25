@@ -1,14 +1,12 @@
-img.dateCondition {
-  width: 60px;
-  height: -webkit-fit-content;
-  height: -moz-fit-content;
-  height: fit-content;
-  margin-left: 6px;
-}
-
 .title {
   color: #38A8B7;
   text-align: left;
+}
+
+@media (max-width: 540px) {
+  .actiCard {
+    padding: .8rem .5rem !important;
+  }
 }
 
 .actiCard {
@@ -27,6 +25,50 @@ img.dateCondition {
       -ms-flex-align: baseline;
           align-items: baseline;
   padding: 12px;
+}
+
+.actiCard .date img.dateCondition {
+  width: 72px;
+  height: 28px;
+  margin-top: -14px;
+  margin-left: 10px;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.actiCard .date img.dateCondition.theEnd {
+  background-image: url("../../../assets/theEnd.png");
+}
+
+.actiCard .date img.dateCondition.inProgress {
+  background-image: url("../../../assets/inProgress.png");
+}
+
+.actiCard .date img.dateCondition.inFuture {
+  background-image: url("../../../assets/inFuture.png");
+  width: 87px;
+}
+
+@media (max-width: 540px) {
+  .actiCard .date {
+    display: block;
+    padding: 4px;
+  }
+  .actiCard .date .dateCondition {
+    margin-top: 4px !important;
+  }
+  .actiCard .date h2 {
+    font-size: 1.5rem;
+    font-weight: normal;
+  }
+  .actiCard .info {
+    border-left: 2px solid #38A8B7;
+    margin-left: 12px;
+    padding-left: 8px;
+  }
+  .actiCard .info h3 {
+    font-size: 1.5rem;
+  }
 }
 
 .actiCard .info {
@@ -127,6 +169,15 @@ img.dateCondition {
 
 #details .infoCard .content .desc.phone a p {
   margin-left: 4px;
+}
+
+@media (max-width: 540px) {
+  #details .infoCard {
+    width: 90%;
+  }
+  #details .infoCard .contentBox {
+    padding: 0;
+  }
 }
 
 #details .btn {

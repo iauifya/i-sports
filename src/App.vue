@@ -1,11 +1,11 @@
 <template>
   <div id="app">
-    <nav>
-      <router-link to="/">Home</router-link> |
-      <!-- <router-link to="/about">About</router-link> | -->
-      <router-link to="/list">List</router-link> |
-      <!-- <router-link to="/details/:id">Details</router-link> | -->
-    </nav>
+    <!-- <nav>
+      <router-link to="/home">首頁</router-link> |
+      <router-link to="/about">About</router-link> |
+      <router-link to="/list">活動專區</router-link> |
+      <router-link to="/details/:id">Details</router-link> |
+    </nav> -->
     <router-view/>
   </div>
 </template>
